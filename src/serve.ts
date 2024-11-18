@@ -28,6 +28,6 @@ app.use(cors({
 app.get('/', (_, res: Response) => {
     res.json({
         status: 'ok',
-        message: 'U-Encrypt is up and running!'
+        message: 'Curso Docker is up and running!'
     });
 });

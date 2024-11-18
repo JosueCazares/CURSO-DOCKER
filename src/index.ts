@@ -6,7 +6,7 @@ import mongoose from 'mongoose';
 
 app.use('/api/user',user);
 
-mongoose.connect('mongodb://mongodb:password@localhost:27017/miapp?authSource=admin');
+mongoose.connect('mongodb://root:password@monguito:27017/miapp?authSource=admin');
 
 
 app.listen(env.PORT, () => {
